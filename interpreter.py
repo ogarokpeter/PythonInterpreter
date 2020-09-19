@@ -764,6 +764,6 @@ class VirtualMachine():
 
 if __name__ == '__main__':
     VirtualMachine().run(compile("""
-with open('/home/ogarokpeter/Downloads/virtual2.py') as f:
+with open('sample_program.py') as f:
     print(f.read())
 """, "<stdin>", "exec"))
